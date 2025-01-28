@@ -6,7 +6,7 @@ export async function main() {
     const args = [
         '0x5b0A56AE8dECde9cb3cf132024D116D5AF8dDc83',   // _initialOwner
         1 * 10 ** 18,   // _initialSupply
-        'OrionAnyFlow', // _name
+        'OrionAnyFlowERC20', // _name
         'OAF',           // _symbol
     ] as const;
 
